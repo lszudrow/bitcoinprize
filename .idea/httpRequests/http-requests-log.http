@@ -1,0 +1,147 @@
+DELETE http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "BTC-USD",   "limit": "0.01" }
+
+###
+
+DELETE http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "BTC-USD",   "limit": "0.01" }
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+<> 2019-02-25T100805.201.json
+
+###
+
+DELETE http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+<> 2019-02-25T100638.201.json
+
+###
+
+DELETE http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+###
+
+DELETE http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+<> 2019-02-25T100146.201.json
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "EUR-USD",   "limit": "0.01" }
+
+<> 2019-02-25T032624.201.json
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "USD-EUR",   "limit": "0.01" }
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "currencyPair": "USD-EUR",   "limit=": "0.01" }
+
+<> 2019-02-25T030856.201.json
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+
+{   "currencyPair": "USD-EUR",   "limit=": "0.01" }
+
+<> 2019-02-25T030824.415.json
+
+###
+
+POST http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+
+{     currencyPair="USD-EUR";     limit="0.01"; }
+
+<> 2019-02-25T030544.415.json
+
+###
+
+PUT http://localhost:8090/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+
+{     currencyPair="USD-EUR";     limit="0.01"; }
+
+<> 2019-02-25T030521.405.json
+
+###
+
+PUT http://localhost:8080/api/alertConfiguration
+Accept: application/json
+Cache-Control: no-cache
+
+{     currencyPair="USD-EUR";     limit="0.01"; }
+
+###
+

@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adae90c3-12f9-46bb-8005-018d7ae003d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/PrizeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/exception/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/PrizeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/bootload/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/ClientsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/ExcludeFromTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/XChangeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/AlertConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/exception/IllegalCurrencyPairException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsConfigurationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsConfigurationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/TestPrizeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationControllerTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bitcoinprize" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsConfigurationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/AlertConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/exception/IllegalCurrencyPairException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/XChangeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1950#1951#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsConfigurationRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="108" selection-start-line="108" selection-end-line="116" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1543#1544#0" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2092#2093#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2232#2233#0" expanded="true" />
+                <element signature="e#2259#2260#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
+                <element signature="e#2338#2339#0" expanded="true" />
+                <element signature="e#2737#2738#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
+                <element signature="e#3122#3123#0" expanded="true" />
+                <element signature="e#3149#3150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/TestPrizeServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/PrizeServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/PrizeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding>
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/bootload/DataLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logger</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response3.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/BitcoinPrizeServerTests.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controllers/AlertPublisherControllerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repositories/AlertsConfigurationRepositoryMongo.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/bootload/DataLoader.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repositories/AlertsRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/BitcoinPrizeServer.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/clients/XChangeScheduler.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/clients/Client.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/clients/ClientConfiguration.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controllers/AlertsConfigurationControllerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/clients/XChangeClient.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/services/AlertsService.java" />
+        <option value="restClient/response0.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/exceptions/IllegalCurrencyPairException.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controllers/AlertsPublisherController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/clients/ClientsConfiguration.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/services/ServicesConfiguration.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controllers/AlertsConfigurationController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/services/AlertsConfigurationService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repositories/AlertsConfigurationRepository.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/exception/MyCustomClientException.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/exception/ClientException.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsConfigurationService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsConfigurationRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherController.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/Alert.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/AlertConfiguration.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/client/ExcludeFromTests.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/ExcludeFromTests.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/PrizeServer.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/TestPrizeServer.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServerTests.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServer2Test.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/PrizeClient.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherControllerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/ClientsConfiguration.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/exception/IllegalCurrencyPairException.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/XChangeClient.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/bootload/DataLoader.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherController2Test.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationControllerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\szudrowi\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../WORK/JDK/MAVEN" />
+        <option name="userSettingsFile" value="C:\Users\szudrowi\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BitCoin Prize - Server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BitCoin Prize - Server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BitCoin Prize - Server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <autoscrollFromSource PackagesPane="true" ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bitcoinprize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitcoinprize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitcoinprize" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitcoinprize" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-client" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-client" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoinprize.client" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-client" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoinprize.client" type="1f31426a:PackageElementNode" />
+              <item name="exception" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="bootload" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="client" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="dto" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="exception" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="repository" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="bitcoinprize" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bitcoin-prize-server" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ubs.bitcoin.prize.server" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.49643704" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ubs.bitcoin.prize.server.client" />
+      <recent name="com.ubs.bitcoinprize.client.exception" />
+      <recent name="com.ubs.bitcoin.prize.server.exceptions" />
+      <recent name="com.ubs.bitcoin.prize.server.repositories" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ubs.bitcoin.prize.server.clients" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ubs.bitcoin.prize.server.controller" />
+      <recent name="com.ubs.bitcoin.prize.server" />
+      <recent name="com.ubs.bitcoin.prize.server.controllers" />
+      <recent name="com.ubs.bitcoinprize.server.controllers" />
+      <recent name="com.ubs.bitcoinprize.server.services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ubs.bitcoin.prize.server.client" />
+      <recent name="com.ubs.bitcoin.prize.server.bootload" />
+      <recent name="com.ubs.bitcoin.prize.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ubs.bitcoinprize.client" />
+      <recent name="com.ubs.bitcoinprize.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DATA\LEARNING\bitcoinprize\client\src\main\resources" />
+      <recent name="C:\DATA\LEARNING\bitcoinprize\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DATA\LEARNING\bitcoinprize\server\src\main\java\com\ubs\bitcoin\prize\server\services" />
+      <recent name="C:\DATA\LEARNING\bitcoinprize\server\src\main\java\com\ubs\bitcoin\prize\server\dto" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;currencyPair&quot;: &quot;BTC-USD&quot;,   &quot;limit&quot;: &quot;0.01&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;currencyPair&quot;: &quot;EUR-USD&quot;,   &quot;limit&quot;: &quot;0.01&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;currencyPair&quot;: &quot;EUR-USD&quot;,   &quot;limit&quot;: &quot;0.01&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;currencyPair&quot;: &quot;USD-EUR&quot;,   &quot;limit=&quot;: &quot;0.01&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;currencyPair&quot;: &quot;USD-EUR&quot;,   &quot;limit=&quot;: &quot;0.01&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     currencyPair=&quot;USD-EUR&quot;;     limit=&quot;0.01&quot;; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/api/alertConfiguration" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     currencyPair=&quot;USD-EUR&quot;;     limit=&quot;0.01&quot;; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BitcoinPrizeServer">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsPublisherController2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bitcoin-prize-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ubs.bitcoin.prize.server.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ubs.bitcoin.prize.server.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ubs.bitcoin.prize.server.controller.AlertsPublisherController2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in bitcoin-prize-server (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bitcoin-prize-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in bitcoin-prize-server (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bitcoin-prize-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in bitcoin-prize-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bitcoin-prize-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BitcoinPrizeServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bitcoin-prize-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ubs.bitcoin.prize.server.PrizeServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrizeClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bitcoin-prize-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ubs.bitcoinprize.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ubs.bitcoinprize.client.PrizeClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PrizeClient" />
+        <item itemvalue="JUnit.All in bitcoin-prize-server (2)" />
+        <item itemvalue="JUnit.AlertsPublisherController2Test" />
+        <item itemvalue="JUnit.All in bitcoin-prize-server (1)" />
+        <item itemvalue="JUnit.All in bitcoin-prize-server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\szudrowi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adae90c3-12f9-46bb-8005-018d7ae003d9" name="Default Changelist" comment="" />
+      <created>1550602780568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550602780568</updated>
+      <workItem from="1550602784864" duration="4153000" />
+      <workItem from="1550666554635" duration="1990000" />
+      <workItem from="1550674431113" duration="20153000" />
+      <workItem from="1550848173742" duration="64648000" />
+      <workItem from="1551162336870" duration="14608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_bitcoin-prize-server - 2019.02.26 at 10h 40m 46s.xml">
+      <configuration name="All in bitcoin-prize-server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bitcoin-prize-server - 2019.02.26 at 10h 42m 57s.xml">
+      <configuration name="All in bitcoin-prize-server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bitcoin-prize-server - 2019.02.26 at 10h 43m 59s.xml">
+      <configuration name="All in bitcoin-prize-server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bitcoin-prize-server_(1) - 2019.02.26 at 10h 59m 38s.xml">
+      <configuration name="All in bitcoin-prize-server (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertsPublisherController2Test - 2019.02.26 at 11h 01m 21s.xml">
+      <configuration name="AlertsPublisherController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertsPublisherController2Test - 2019.02.26 at 11h 03m 43s.xml">
+      <configuration name="AlertsPublisherController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertsPublisherController2Test - 2019.02.26 at 11h 04m 32s.xml">
+      <configuration name="AlertsPublisherController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bitcoin-prize-server_(2) - 2019.02.26 at 11h 07m 10s.xml">
+      <configuration name="All in bitcoin-prize-server (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bitcoin-prize-server_(2) - 2019.02.26 at 11h 08m 32s.xml">
+      <configuration name="All in bitcoin-prize-server (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bitcoin-prize-server_(2) - 2019.02.26 at 11h 09m 42s.xml">
+      <configuration name="All in bitcoin-prize-server (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="105552000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848485" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.50151515" side_tool="true" weight="0.25" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.337487" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40706128" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45898235" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32917964" />
+      <window_info anchor="bottom" x="0" y="23" width="1920" height="1057" id="Terminal" maximized="true" order="8" type="WINDOWED" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32917964" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3281412" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.42575285" />
+      <window_info anchor="bottom" id="REST Client" order="17" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3296875" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4822335" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45989847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" x="0" y="23" width="1920" height="1057" id="Terminal" maximized="true" order="8" type="WINDOWED" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32994923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3296875" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsConfigurationRepository.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/XChangeClient.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/XChangeClient.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Stream.of( repository.values()).collect( Collectors.toList() );</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Stream,java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertsConfigurationService.getAlertsConfigurations().collect( Collectors.toList() );</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertFlux.toStream().collect( Collectors.toList() );</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertsConfigurationRepository.existsById( alertConfiguration )
+                                                 .block();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertsConfigurationRepository.findAll().toStream().collect( Collectors.toList() );</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertsConfigurationRepository.findAll().collect( Collectors.toList() );</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertsConfigurationRepository.findAll();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>testRestTemplate.exchange( ALERT_URL, HttpMethod.DELETE, new HttpEntity&lt;&gt;( alertConfiguration ), AlertConfiguration.class );</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alertsConfigurationService.getAlertsConfigurations();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.8.RELEASE/reactor-core-3.1.8.RELEASE.jar!/reactor/core/publisher/MonoJust.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.8.RELEASE/reactor-core-3.1.8.RELEASE.jar!/reactor/core/publisher/MonoEmpty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.8.RELEASE/reactor-core-3.1.8.RELEASE.jar!/reactor/core/publisher/Mono.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/context/ApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/scheduling/support/DelegatingErrorHandlingRunnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/lang/Void.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repositories/AlertsConfigurationRepositoryMongo.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/knowm/xchange/xchange-core/4.3.11/xchange-core-4.3.11.jar!/org/knowm/xchange/currency/CurrencyPair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="264" column="11" selection-start-line="264" selection-start-column="11" selection-end-line="264" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="e#4242#4243#0" expanded="true" />
+            <element signature="e#4278#4279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/ServicesConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="480" selection-start-line="480" selection-end-line="480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../WORK/JDK/JDK8_u162/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/exception/ServerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/Alert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/client/ExcludeFromTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.0.3.RELEASE/spring-boot-test-2.0.3.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/ExcludeFromTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/ClientsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/dto/AlertConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/exception/IllegalCurrencyPairException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/TestPrizeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherController2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/controller/AlertsPublisherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/controller/AlertsConfigurationControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test/java/com/ubs/bitcoin/prize/server/PrizeServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/ubs/bitcoinprize/client/PrizeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/bootload/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/PrizeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/client/XChangeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsConfigurationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="108" selection-start-line="108" selection-end-line="116" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/repository/AlertsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/ubs/bitcoin/prize/server/service/AlertsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>@types/css</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49643704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>JDK 8u162</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49643704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bitcoinprize</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49643704" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>JDK 8u162</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49643704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
